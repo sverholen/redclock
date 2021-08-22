@@ -1,0 +1,73 @@
+################################
+# Varia                        #
+################################
+.DS_Store
+node_modules
+/dist
+.npmrc
+.docker
+__pycache__
+
+################################
+# Python: local .env files     #
+################################
+.env
+.env.dev # development builds in docker
+.env.dev.local # development build in local IDE
+.env.production # production
+.env.local
+.env.*.local
+*.tar.gz
+scouts-auth/
+lib/
+*.sqlite3
+
+
+################################
+# Log files                    #
+################################
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*debug.log
+
+################################
+# Editor directories and files #
+################################
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+public/config.json
+
+################################
+# Docker Specific GitIgnore    #
+################################
+/api
+/frontend
+
+################################
+# Eclipse Specific GitIgnore   #
+################################
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# CDT-specific
+.cproject
+
